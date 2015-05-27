@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifestConfig xmlns:android="http://schemas.android.com/apk/res/android">
+    <permissionCfg>
+		<uses-permission android:name="android.permission.INTERNET" />
+	    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+	    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+	    <uses-permission android:name="android.permission.WAKE_LOCK" />
+	    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	    <uses-permission android:name="android.permission.VIBRATE" />
+	    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+	    <uses-permission android:name="android.permission.SEND_SMS" />
+	    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	    <uses-permission android:name="android.permission.READ_CONTACTS" />
+	    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    </permissionCfg>
+     
+    <!-- 
+    <applicationCfg keyword="com.ystgame.sdk.billing.GameOpenActivity">
+    	<activity
+            android:name="com.ystgame.sdk.billing.GameOpenActivity"
+            android:screenOrientation="sensor"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+	</applicationCfg>
+	 -->
+
+</manifestConfig> 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/btnContainer"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center" >
+
+    <Button
+        android:id="@+id/btnOtherPayment"
+        android:layout_width="96dp"
+        android:layout_height="64dp"
+        android:background="@drawable/btn_background_selector"
+        android:text="@string/dk_payment_channel_other"
+        android:textColor="#666666"
+        android:textSize="12sp" />
+
+</LinearLayout>

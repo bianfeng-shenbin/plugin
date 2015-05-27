@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dkTipSMS"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:background="@android:color/transparent"
+    android:gravity="left"
+    android:minHeight="90dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/dkTxtGoodsTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="尊敬的用户,您购买信息如下"
+        android:textColor="@color/dk_color_666666"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/dkMainHeadClose"
+        android:layout_margin="2dp"
+        android:background="#cccccc" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="所购道具:"
+            android:textColor="@color/dk_color_333333"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/dkTxtGoodsName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:paddingLeft="15dp"
+            android:paddingRight="2dp"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="这是一个很长很长的测试你知道么也许你不知道但这是一个很长很长的测试你知道么"
+            android:textColor="@color/dk_color_333333"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_margin="2dp"
+        android:background="#cccccc" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" >
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="游戏名称:"
+            android:textColor="@color/dk_color_333333"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/dkTxtGameName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:marqueeRepeatLimit="1"
+            android:paddingLeft="15dp"
+            android:paddingRight="2dp"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="游戏名称"
+            android:textColor="@color/dk_color_333333"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_margin="2dp"
+        android:background="#cccccc" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" >
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="支付金额:"
+            android:textColor="@color/dk_color_333333"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/dkTxtGoodsPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:paddingLeft="15dp"
+            android:paddingRight="2dp"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="%s元"
+            android:textColor="@color/dk_color_333333"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_margin="2dp"
+        android:background="#cccccc" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" >
+
+        <TextView
+            android:id="@+id/dkTxtPayMethod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:singleLine="true"
+            android:text="支付方式:"
+            android:textColor="@color/dk_color_333333"
+            android:textSize="15sp" />
+
+        <include
+            android:id="@+id/dk_pay_dropdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            layout="@layout/dk_new_payment_dropdown" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_margin="2dp"
+        android:background="#cccccc" />
+
+    <TextView
+        android:id="@+id/dkTxtWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:singleLine="true"
+        android:text="(点击确认将从您的手机话费中扣除%s元)"
+        android:textColor="@color/dk_color_d0d0d0"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/dkBtnConfirmPay"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/dk_btn_pointer_game_selector"
+        android:text="@string/dk_payment_channel_confirm"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>

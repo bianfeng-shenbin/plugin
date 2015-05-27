@@ -1,0 +1,58 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="android:Theme.NoTitleBar">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+<style name = "DialogTitleStytle">
+	    
+	    <item name ="android:layout_height">46.6dp</item>
+	    <item name ="android:paddingLeft">5dp</item>
+	    <item name ="android:paddingRight">5dp</item>
+	    <item name ="android:textColor">#d85639</item>
+	    <item name ="android:textSize">18.3sp</item>
+	    <item name ="android:gravity">center_vertical</item>
+
+	</style>
+	
+	<!-- 自定义提示框风格 -->
+	<style name="ehoo_dialog" >
+    <item name="android:windowFrame">@null</item>
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:background">@android:color/transparent</item>
+    </style>
+    
+	
+	 <style name="translucent">      
+	 <item name="android:windowBackground">@color/translucent_background</item> 
+	 <item name="android:background">@color/translucent_background</item>	  
+	 <item name="android:windowIsTranslucent">true</item>      
+	  <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>  
+	   <item name="android:windowNoTitle">true</item>
+        <item name="android:colorForeground">#fff</item>	  
+	 </style>
+	 
+	  <style name="TANCStyle" parent="@android:style/Theme.Dialog">
+        <!-- 更换背景图片实现全透明 -->
+        <item name="android:windowBackground">@color/translucent_background</item>
+        <!-- 屏幕背景不变暗 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        
+    </style>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="sdk/alipaysdk.jar"/>
+	<classpathentry kind="lib" path="sdk/android_api_game_1_1.jar"/>
+	<classpathentry kind="lib" path="sdk/android-support-v4.jar"/>
+	<classpathentry kind="lib" path="sdk/dk_game_sdk_1_1.jar"/>
+	<classpathentry kind="lib" path="sdk/DKSingleSDK1_4_1.jar"/>
+	<classpathentry kind="lib" path="sdk/miniSmsPaySDK.jar"/>
+	<classpathentry kind="lib" path="sdk/MobileSecSdk.jar"/>
+	<classpathentry kind="lib" path="sdk/Multimode_UniPay_channel.jar"/>
+	<classpathentry kind="lib" path="sdk/need_lib.jar"/>
+	<classpathentry kind="lib" path="sdk/pushservice-3.2.0.jar"/>
+	<classpathentry kind="lib" path="sdk/universal-image-loader-1.9.2.jar"/>
+	<classpathentry kind="lib" path="sdk/utdid4all-1.0.3.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

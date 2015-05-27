@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:baselineAligned="false" >
+
+    <Button
+        android:id="@+id/btnPaymentByYidong"
+        android:layout_width="140dp"
+        android:layout_height="48dp"
+        android:background="@drawable/dk_btn_pointer_game_selector"
+        android:onClick="doSMSPaymentAction"
+        android:text="@string/dk_payment_channel_confirm"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnPaymentByLiantong"
+        android:layout_width="140dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="12dp"
+        android:background="@drawable/dk_btn_pointer_game_selector"
+        android:gravity="center"
+        android:onClick="doSMSPaymentAction"
+        android:text="@string/dk_payment_channel_confirm"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnPaymentByDianxin"
+        android:layout_width="140dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="12dp"
+        android:background="@drawable/dk_btn_pointer_game_selector"
+        android:gravity="center"
+        android:onClick="doSMSPaymentAction"
+        android:text="@string/dk_payment_channel_confirm"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnOtherPayment"
+        android:layout_width="140dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="12dp"
+        android:background="@drawable/btn_background_selector"
+        android:onClick="showOtherPaymentLayout"
+        android:text="@string/dk_payment_channel_other"
+        android:textColor="#666666"
+        android:visibility="gone"
+        android:textSize="16sp" />
+
+</LinearLayout>

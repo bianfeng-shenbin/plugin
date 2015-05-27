@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Transparent">
+        <item name="android:windowBackground">@color/gc_transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+    </style>
+
+    <style name="applicationTheme" parent="@android:style/Theme.Light">
+        <item name="android:dropDownListViewStyle">@style/myAutoCompleteStyle</item>
+    </style>
+
+    <style name="myAutoCompleteStyle" parent="android:style/Widget.ListView.DropDown">
+        <item name="android:divider">#00ff00</item>
+        <item name="android:dividerHeight">0dp</item>
+    </style>
+    
+</resources>

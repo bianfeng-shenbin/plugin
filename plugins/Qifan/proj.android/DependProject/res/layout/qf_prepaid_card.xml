@@ -1,0 +1,223 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eaeaea"
+    android:orientation="vertical"
+    android:textAlignment="center" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:background="#66cfff" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:onClick="onBackClicked"
+            android:src="@drawable/qf_back" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/qf_logo" />
+    </FrameLayout>
+    
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="@color/qf_ppc_white"
+         android:orientation="vertical" >
+        
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp" 
+        android:layout_marginTop="1dp">
+        
+         <TextView
+             android:id="@+id/text_cmcc"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:paddingLeft="6dp"
+             android:layout_weight="1"
+             android:layout_gravity="center"
+             android:drawableLeft="@drawable/cmcc_sel"
+             android:gravity="center_vertical"
+             android:text="@string/qf_ppc_m"       
+             android:textColor="@color/qf_ppc_text_color"
+             android:background="@color/qf_ppc_back_color"
+             android:textSize="14sp" />
+         
+          <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#ffffff" />
+         
+         
+    
+    <TextView
+        android:id="@+id/text_cucc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="6dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="@string/qf_ppc_u"
+        android:drawableLeft="@drawable/cucc_sel"
+        android:textColor="@color/qf_ppc_text_color"
+        android:background="@color/qf_ppc_back_color"
+        android:textSize="14sp" />
+    
+     <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#ffffff" />
+    
+    <TextView
+        android:id="@+id/text_ctcc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="6dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="@string/qf_ppc_t"
+        android:drawableLeft="@drawable/ctcc_sel"
+        android:textColor="@color/qf_ppc_text_color"
+        android:background="@color/qf_ppc_back_color"
+        android:textSize="14sp" />
+    </LinearLayout>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             android:layout_marginLeft="20dp"
+             android:text="@string/qf_ppc_price"
+             android:textColor="#404040"
+             android:textSize="15sp" />
+
+         <Spinner
+             android:id="@+id/launchrepair_spinner1"
+             style="@style/qf_mySpinnerStyle"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="20dp"
+             android:layout_marginLeft="20dp"
+             android:layout_marginRight="15dp"
+             android:layout_marginTop="10dp"
+             android:background="@drawable/qf_button_pay_pressed"
+             android:clickable="true"
+             android:enabled="true"
+             android:hint="报修人" />
+        
+          </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.07"
+        android:background="@drawable/qf_button_white"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <LinearLayout
+            android:id="@+id/ll_ppc_no"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/qf_bg_editbox"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginLeft="15dp"
+                android:text="@string/qf_ppc_no"
+                android:textColor="#404040"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/qf_ppc_no"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/qf_bg_editbox"
+                android:ems="10"
+                android:hint="@string/qf_enter_ppc_no_prompt"
+                android:inputType="numberSigned"
+                android:maxLength="19"
+                android:paddingLeft="5dp"
+                android:textColor="#404040"                 
+                android:imeOptions="actionNext"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_ppc_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/qf_bg_editbox"
+            android:orientation="horizontal" >
+            
+            <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="45dp"
+             android:layout_marginLeft="15dp"
+             android:text="@string/qf_ppc_pwd"
+             android:textColor="#404040"
+             android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/qf_ppc_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/qf_bg_editbox"
+                android:ems="10"
+                android:hint="@string/qf_enter_ppc_pwd_prompt"
+                android:inputType="numberSigned"
+                android:maxLength="19"
+                android:paddingLeft="5dp"
+                android:imeOptions="actionDone"                
+                android:textColor="#404040" >                
+            </EditText>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/qf_msg_ppc_prompt"
+            android:textColor="#939393"
+            android:textSize="15sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/qf_button_pay"
+            android:onClick="onPayClicked"
+            android:text="@string/qf_button_pay"
+            android:textColor="#fff"
+            android:textSize="28sp" />
+    </LinearLayout>
+
+</LinearLayout>

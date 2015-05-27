@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameKeyMap>
+    <KeyInfo>
+      <L1>L1：防御</L1>
+    </KeyInfo>
+    <KeyInfo>
+      <L2>L2：护卫状态切换
+          （跟踪/停留）</L2>
+    </KeyInfo>
+    <KeyInfo>
+      <L3>左摇杆</L3>
+    </KeyInfo>
+    <KeyInfo>
+      <L4>方向键</L4>
+    </KeyInfo>
+    <KeyInfo>
+      <LB>SELECT键-
+护卫方针切换</LB>
+    </KeyInfo>
+    <KeyInfo>
+      <RB>START键-
+暂停/调出菜单</RB>
+    </KeyInfo>
+    <KeyInfo>
+      <R1>R1：弓攻击</R1>
+    </KeyInfo>
+    <KeyInfo>
+      <R2>R2：切换地图</R2>
+    </KeyInfo>
+    <KeyInfo>
+      <R3>R3：右摇杆</R3>
+    </KeyInfo>
+    <KeyInfo>
+      <A>A：跳跃或上下马/象</A>
+    </KeyInfo>
+    <KeyInfo>
+      <B>B：无双攻击</B>
+    </KeyInfo>
+    <KeyInfo>
+      <X>X：普通攻击</X>
+    </KeyInfo>
+    <KeyInfo>
+      <Y>Y：畜力攻击</Y>
+    </KeyInfo>
+</GameKeyMap>

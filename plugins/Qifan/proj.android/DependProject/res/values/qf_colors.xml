@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <color name="qf_back_normal">#bababa</color>
+    <color name="qf_back_pressed">#218dd5</color>
+   
+    <color name="qf_ppc_blue">#00a0ec</color>
+    <color name="qf_ppc_white">#ffffff</color>
+    <color name="qf_ppc_back_white">#eeeeee</color>
+    <color name="qf_ppc_back_grey">#c4c4c4</color>
+    <color name="qf_ppc_green">#00cb72</color>
+    
+    <color name="translucent_background">#50000000</color>
+    
+    
+   
+    
+</resources>
