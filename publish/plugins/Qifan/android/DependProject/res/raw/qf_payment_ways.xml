@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payment-ways>
+
+    <payment-way
+        id="0"
+        name="短信支付"
+        disbackground="qf_button_grey"
+        discolor="#c4c4c4"
+        disicon="qf_ic_sms_no"
+        icon="qf_ic_sms"
+        islocal="true"
+        summary="3家运营商"
+        color="#00bcc8" />
+    <payment-way
+        id="1"
+        name="支付宝"
+        disbackground="qf_button_grey"
+        discolor="#c4c4c4"
+        disicon="qf_ic_zfb_no"
+        icon="qf_ic_zfb"
+        islocal="true"
+        summary=""
+        color="#e5a700" />
+    
+    <payment-way
+        id="2"
+        name="充值卡"
+        disbackground="qf_button_grey"
+        discolor="#c4c4c4"
+        disicon="qf_ic_ppc_no"
+        icon="qf_ic_ppc"
+        islocal="true"
+        summary="3家运营商"
+        color="#00c78f" />
+    <payment-way
+        id="3"
+        name="银行卡"
+        disbackground="qf_button_grey"
+        discolor="#C4C4C4"
+        disicon="qf_ic_bank_no"
+        icon="qf_ic_bank"
+        islocal="true"
+        summary=""
+        color="#0098c7" />   
+        
+     <payment-way
+        id="4"
+        name="微信"
+        disbackground="qf_button_grey"
+        discolor="#C4C4C4"
+        disicon="qf_ic_wx_no"
+        icon="qf_ic_wx"
+        islocal="false"
+        summary=""
+        color="#00c78f"        
+         />
+    <payment-way
+        id="5"
+        name="打白条"
+        disbackground="qf_button_grey"
+        discolor="#c4c4c4"
+        disicon="qf_ic_bt_no"
+        icon="qf_ic_bt"
+        islocal="true"
+        summary=""
+        color="#ff6e63" />
+
+</payment-ways>

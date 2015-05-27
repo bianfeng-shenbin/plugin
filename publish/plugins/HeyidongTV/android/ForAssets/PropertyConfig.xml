@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PropertyConfig>
+  <PropertyInfoList>
+    <PropertyInfo>
+      <PropertyIndex>001</PropertyIndex>
+      <PropertyDesc>在PropertyConfig.xml文件中配置道具描述001</PropertyDesc>
+      <PropertyPath>CMGC/gc_default_property_icon.png</PropertyPath>
+    </PropertyInfo>
+    <PropertyInfo> 
+      <PropertyIndex>002</PropertyIndex>
+      <PropertyDesc>在PropertyConfig.xml文件中配置道具描述002</PropertyDesc>
+      <PropertyPath>CMGC/gc_default_property_icon.png</PropertyPath>
+    </PropertyInfo>
+    <PropertyInfo>
+      <PropertyIndex>003</PropertyIndex>  
+      <PropertyDesc>在PropertyConfig.xml文件中配置道具描述003</PropertyDesc>  
+      <PropertyPath>CMGC/gc_default_property_icon.png</PropertyPath>
+    </PropertyInfo>  
+    <PropertyInfo> 
+      <PropertyIndex>004</PropertyIndex>  
+      <PropertyDesc>在PropertyConfig.xml文件中配置道具描述004</PropertyDesc>  
+      <PropertyPath>CMGC/gc_default_property_icon.png</PropertyPath>
+    </PropertyInfo>
+  </PropertyInfoList> 
+</PropertyConfig>

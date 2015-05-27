@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="361dp"
+        android:layout_height="250dp"
+        android:background="@drawable/yilian_info_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/ehoo_vid_title"
+            android:layout_width="310dp"
+            android:layout_height="46dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/title_yilian"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:text="title" 
+            android:textSize="16.6sp"/>
+
+        <TextView
+            android:id="@+id/ehoo_vid_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.52"
+            android:paddingBottom="70dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="27dp"
+            android:paddingTop="5dp"
+            android:text="sssssssssssssssss"
+            android:textColor="@android:color/black"
+            android:textSize="16.6sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ll"
+        android:layout_alignLeft="@+id/ll"
+        android:layout_alignRight="@+id/ll"
+        android:paddingBottom="10dp" >
+
+        <Button
+            android:id="@+id/ehoo_vid_button_positive"
+            android:layout_width="326dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/btn_yilan_button_ok"
+            android:text="确认" 
+            android:textColor="#ffffff"
+            android:textSize="16.6sp"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/ehoo_vid_button_negative"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_alignRight="@+id/ll"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/yixun_tip_close" />
+
+</RelativeLayout>

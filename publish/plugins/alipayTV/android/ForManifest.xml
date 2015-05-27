@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifestConfig xmlns:android="http://schemas.android.com/apk/res/android">
+    <permissionCfg>
+        <uses-permission android:name="android.permission.INTERNET" />
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+        <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    	<uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    	<uses-permission android:name="android.permission.READ_SETTINGS" />
+        <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+        <uses-permission android:name="android.permission.GET_TASKS" />
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+        <!-- other权限 -->
+    <uses-permission android:name="com.taobao.statistic.permission.DEVICE_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    
+        <uses-permission android:name="com.ut.permission.DEVICE_STATE"/>
+    	<permission android:name="com.ut.permission.DEVICE_STATE"/>
+    </permissionCfg>
+    
+    <application
+        android:allowBackup="true">
+
+        <!-- 以下需要在app中注册 -->
+
+        <activity
+            android:name="com.yunos.tv.baodian.common.ConsumeActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|keyboard"
+            android:label="@string/ali_de_bd_string_activity_name"
+            android:theme="@style/baodianPayDialog" >
+        </activity>
+        <activity
+            android:name="com.yunos.tv.baodian.common.QRPaymentActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|keyboard"
+            android:theme="@style/baodianPayDialog">
+        </activity>
+
+        <service
+            android:name="com.taobao.statistic.module.data.Yolanda"
+            android:process=":utremote" >
+        </service>
+        
+        <receiver
+            android:name="com.ut.device.BQueryWhoHasOne"
+            android:exported="true"
+            android:permission="com.ut.permission.DEVICE_STATE" >
+            <intent-filter>
+                <action android:name="UT.QueryWhoHasOne" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.ut.device.BFoundIt"
+            android:exported="true"
+            android:permission="com.ut.permission.DEVICE_STATE" >
+            <intent-filter>
+                <action android:name="UT.FoundIT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.yunos.mc.receiver.McReceiver" >
+            <intent-filter>
+                <action android:name="com.aliyun.xiaoyunmi.action.AYUN_LOGIN_BROADCAST" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.aliyun.xiaoyunmi.action.DELETE_ACCOUNT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+    </application>
+    
+</manifestConfig> 

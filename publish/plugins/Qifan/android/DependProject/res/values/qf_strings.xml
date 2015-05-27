@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="qf_app_name">起凡支付</string>
+    <string name="qf_msg_invalid_sim">sim卡状态有误，请检查sim卡！</string>
+    <string name="qf_msg_invalid_operator">充值卡运营商无效！</string>
+    <string name="qf_msg_ppc_prompt">温馨提示：请仔细核对充值卡面额，面额不正确，可能导致充值失败或者充值卡损失！</string>
+    <string name="qf_back">&lt; 返回</string>
+    <string name="qf_product_name">商品名称</string>
+    <string name="qf_price">支付金额</string>
+    <string name="qf_yuan">￥</string>
+    <string name="qf_label_payments">请选择支付方式</string>
+    <string name="qf_sms">短信支付</string>
+    <string name="qf_sms_prompt">3家运营商</string>
+    <string name="qf_ppc_m">移动充值卡</string>
+    <string name="qf_ppc_u">联通充值卡</string>
+    <string name="qf_ppc_t">电信充值卡</string>
+    <string name="qf_ppc_prompt">3家运营商</string>
+    <string name="qf_alipay">支付宝</string>
+    <string name="qf_alipay_prompt">描述性文字</string>
+    <string name="qf_bank">银行卡</string>
+    <string name="qf_bank_prompt">描述性文字</string>
+    <string name="qf_ppc_type">卡类型：</string>
+    <string name="qf_cmcc">移动</string>
+    <string name="qf_cucc">联通</string>
+    <string name="qf_ctcc">电信</string>
+    <string name="qf_ppc_price">请选择充值卡面额：</string>
+    <string name="qf_ppc_no">卡号</string>
+    <string name="qf_ppc_pwd">密码</string>
+    <string name="qf_enter_ppc_no_prompt">请输入正确卡号</string>
+    <string name="qf_enter_ppc_pwd_prompt">请输入正确密码</string>
+    <string name="qf_button_pay">确认购买</string>
+    <string name="qf_msg_empty_ppc_price">充值卡面额不能为空！</string>
+    <string name="qf_msg_empty_ppc_no">充值卡号不能为空！</string>
+    <string name="qf_msg_wrong_ppc_no">充值卡号长度不正确！</string>
+    <string name="qf_msg_empty_ppc_pwd">充值密码不能为空！</string>
+    <string name="qf_msg_wrong_ppc_pwd">充值密码长度不正确！</string>
+    <string name="qf_msg_conn_error">无法连接服务器，请检查网络！</string>
+    <string name="qf_msg_processing">正在处理中...</string>
+    <string-array name="qf_operators">
+        <item>@string/qf_cmcc</item>
+        <item>@string/qf_cucc</item>
+        <item>@string/qf_ctcc</item>
+    </string-array>
+    
+    <string name="pay_result_callback_msg" formatted="false">微信支付结果：%s</string>
+    <string name="errcode_success">发送成功</string>
+	<string name="errcode_cancel">发送取消</string>
+	<string name="errcode_deny">发送被拒绝</string>
+	<string name="errcode_unknown">发送返回</string>
+</resources>

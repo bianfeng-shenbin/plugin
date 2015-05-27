@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifestConfig xmlns:android="http://schemas.android.com/apk/res/android">
+    <applicationCfg keyword="com.xmxgame.pay.XMXPayActivity">
+        <activity
+            android:name="com.xmxgame.pay.XMXPayActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+
+        <meta-data android:name="pay.shafa.key" android:value="53954a83"/>
+        <meta-data android:name="pay.shafa.secret" android:value="f22adfefa9cb3175ae41ef121f38b960"/>
+    </applicationCfg>
+
+    <permissionCfg>
+		<uses-permission android:name="android.permission.INTERNET"/>
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    </permissionCfg>
+</manifestConfig> 

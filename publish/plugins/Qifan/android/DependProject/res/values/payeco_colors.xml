@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <color name="payeco_textColorGrayTwo">#A2A2A2</color>
+    <color name="payeco_textColorWhite">#FFFFFF</color>
+    <color name="payeco_textColorBlack">#2B2B2B</color>
+    <color name="payeco_textColorYellow">#FF8C00</color>
+    <color name="payeco_textColorBlue">#6CA6CD</color>
+    <color name="payeco_titleTextColor">#1780C7</color>
+    <color name="payeco_tipsTextColor">#4A5761</color>
+    <color name="payeco_hintTextColor">#C4C4C4</color>
+    <color name="payeco_bgColor">#E8E8E8</color>
+    
+    <color name="color_ic_sms">#00bcc8</color>
+    <color name="color_ic_zfb">#e5a700</color>
+    <color name="color_ic_wx">#00c78f</color>
+    <color name="color_ic_ppc">#00c78f</color>
+    <color name="color_ic_bank">#0098c7</color>
+    <color name="color_ic_bt">#ff6e63</color>
+    
+
+</resources>

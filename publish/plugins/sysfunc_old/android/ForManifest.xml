@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifestConfig xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <permissionCfg>
+		<!-- sms  -->
+		<uses-permission android:name="android.permission.RECEIVE_SMS" />
+		<uses-permission android:name="android.permission.SEND_SMS" />
+		<uses-permission android:name="android.permission.WRITE_SMS" />
+		<uses-permission android:name="android.permission.READ_SMS" />
+
+    </permissionCfg>
+</manifestConfig> 

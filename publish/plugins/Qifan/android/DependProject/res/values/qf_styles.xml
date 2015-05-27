@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+     <style name="qf_applicationTheme" parent="@android:style/Theme.Light">
+                <item name="android:dropDownListViewStyle">@style/qf_mySpinnerStyle</item>
+    </style>
+
+    <style name="qf_mySpinnerStyle" parent="android:style/Widget.ListView.DropDown">
+        <item name="android:divider">#ffffff</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+    
+</resources>
